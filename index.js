@@ -1,3 +1,5 @@
+import { SpeedInsights } from "@vercel/speed-insights/react";
+
 const TelegramBot = require("node-telegram-bot-api");
 
 const { gameOptions, againOptions } = require("./options");
