@@ -1,7 +1,7 @@
 {
   "name": "mybot",
   "version": "1.0.0",
-  "description": "",
+  "description": "hgiyufgiuyiouyf",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -13,5 +13,7 @@
     "@vercel/speed-insights": "^1.0.2",
     "node-telegram-bot-api": "^0.64.0",
     "nodeman": "^1.1.2"
-  }
+  },
+  "devDependencies": {},
+  "keywords": []
 }

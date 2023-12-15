@@ -1,11 +1,9 @@
-import { SpeedInsights } from "@vercel/speed-insights/react";
-
 const TelegramBot = require("node-telegram-bot-api");
 
 const { gameOptions, againOptions } = require("./options");
 
-const token = "5233250692:AAHJGzjt9JCdkxtHpvKhWm36ZKW5sHOc4yE";
-// const token = "6668772112:AAFy3ji3xJCY3UYQVJmHNxZ6lHwFrUTfZdw";
+// const token = "5233250692:AAHJGzjt9JCdkxtHpvKhWm36ZKW5sHOc4yE";
+const token = "6668772112:AAFy3ji3xJCY3UYQVJmHNxZ6lHwFrUTfZdw";
 
 const bot = new TelegramBot(token, { polling: true });
 
